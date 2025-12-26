@@ -1,0 +1,9 @@
+#WAP to find whether a given number is prime or not.
+n = int(input("Enter a number :"))
+
+for i in range(2,n):
+    if(n%i == 0):
+        print(f"number is not prime {n}")
+        break
+else:
+    print(f"number is prime {n}")
