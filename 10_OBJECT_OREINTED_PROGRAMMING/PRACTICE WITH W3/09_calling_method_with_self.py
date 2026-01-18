@@ -12,4 +12,4 @@ class Person:
     print(message + "! Welcome to our website.")
 
 p1 = Person("Tobias")
-p1.welcome(
+p1.welcome()
