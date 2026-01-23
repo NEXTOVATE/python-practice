@@ -15,7 +15,7 @@ dragons = int(input("Ener the dragons number :"))
 if (is_hero_win(bullets,dragons)):
     print("Hero is winner")
 else:
-    print("Hero is RIP")
+    print("Hero is RIP") 
 
 
 
