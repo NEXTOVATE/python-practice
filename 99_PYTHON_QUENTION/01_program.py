@@ -1,9 +1,6 @@
-#display this patters
-'''   *
-     ***            for = 3
-    *****'''
+#WAP to print multiplication table of a given number using for loop
+n = int(input("Enter a number :"))
 
-n = int(input("Enter the number :"))
-for i in range(1,n+1):
-    print(" "*(n-i),end="")
-    print("*"*(2*i-1))
+for i in range(1,11):
+    print(f"{n} x {i} = {n*i}")
+    # print(n,"x",i,"=" ,n*i)       both give same output

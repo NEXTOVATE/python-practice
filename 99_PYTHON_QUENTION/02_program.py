@@ -1,6 +1,9 @@
-#WAP to greet all the person name start with "s" 
-list = ["sagar","gaurav","sameer","anju","kapil"]
+#solve the program1 with while loop
+#WAP to print multiplication table of a given number using for loop
 
-for i in list:
-    if(i.startswith("s")):
-        print(f"Hello {i}")
+n = int(input("Enter a number :"))
+
+i = 1
+while i <= 10:
+    print(f"{n} x {i} = {n*i}")
+    i +=1
