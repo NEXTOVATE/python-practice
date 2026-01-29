@@ -10,19 +10,30 @@
 
 # "ATTGC" --> "TAACG"
 # "GTAT" --> "CATA"
+ 
+def dna_symbol(n):
+    ans = ""
+    dna = {"A":"T",
+           "T":"A",
+           "C":"G",
+           "G":"C"}
+    for i in n:
+        ans +=dna[i]
+    
+    return ans
 
-dna = {'A':'T',
-       'T':'A',
-       'C':'G',
-       'G':'C'}
-
-ans = ""
-str = "ATGC"
-for i in str:
-    ans +=dna[i]
 
 
-print(ans)a
+
+
+n = input("Enter the DNA string symbol : ")
+
+print(dna_symbol(n))
+
+
+
+
+
  
 
 
