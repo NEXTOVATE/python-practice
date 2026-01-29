@@ -6,7 +6,7 @@
 
 
 def reverse_arry(n):
-    arry = list(n)
+    arry = list(map(int,str(n)))
     arry.reverse()
     return arry
    
