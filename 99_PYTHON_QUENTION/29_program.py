@@ -22,7 +22,7 @@ for i in str:
     ans +=dna[i]
 
 
-print(ans)
+print(ans)a
  
 
 
