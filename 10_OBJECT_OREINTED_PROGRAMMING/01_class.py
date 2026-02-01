@@ -14,12 +14,12 @@ rohan.name = "rohan vanshi"
 print(rohan.name)
 print(rohan.lang)
 print(rohan.salary)
+ 
 
 
 
 
-
-
+ 
 
 
 
