@@ -11,5 +11,5 @@ class Person:
     message = self.greet()
     print(message + "! Welcome to our website.")
 
-p1 = Person("Tobias")
+p1 = Person("Sumit")
 p1.welcome()
