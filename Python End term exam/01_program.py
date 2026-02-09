@@ -3,4 +3,4 @@
 x = input("Enter a string: ")
 result = any(x[i] == x[i+1] for i in range(len(x)-1))
 print(result)
-         
+              
