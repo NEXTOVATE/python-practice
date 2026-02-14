@@ -10,13 +10,9 @@
 # ('/', 49, 7) --> 7
 
 
-
-x = int(input("Enter the number :"))
-y = int(input("Enter the symbol :"))
-z = int(input("Enter the number :"))
-
-a = (x)+(y)+(z)
-print(x)
+def basic_calculation(oper,value1,value2):
+    if oper == '+':
+        return 
 
 
  
