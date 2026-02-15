@@ -10,9 +10,28 @@
 # ('/', 49, 7) --> 7
 
 
-def basic_calculation(oper,value1,value2):
+def basic_calculation(value1,oper,value2):
     if oper == '+':
-        return 
+        return value1 + value2
+    elif oper == '-':
+        return value1 - value2
+    elif oper == '*':
+        return value1 * value2
+    elif oper == '/':
+        if value2 == 0:
+            return "Error : division by zero"
+        return value1 / value2
+    else:
+        return 'Invalid operator'
+    
+
+
+x = int(input("Enter value one :"))
+y = input("Enter value opearator :")
+z = int(input("Enter value two :"))
+
+
+print(basic_calculation(x,y,z))
 
 
  
