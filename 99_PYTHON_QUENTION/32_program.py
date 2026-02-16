@@ -18,7 +18,7 @@ def nb_year(p0,percent,aug,p):
         y +=1
     return y
            
- 
+  
 
 
 p0 = int(input("Enter the intial population :"))
