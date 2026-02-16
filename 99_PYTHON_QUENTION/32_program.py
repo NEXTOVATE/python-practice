@@ -17,7 +17,7 @@ def nb_year(p0,percent,aug,p):
         p0 = int(p0 + aug + (p0*percent/100))
         y +=1
     return y
-        
+           
  
 
 
