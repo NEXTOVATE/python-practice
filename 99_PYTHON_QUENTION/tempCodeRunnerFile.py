@@ -1,0 +1,2 @@
+
+# print(sum/len(num))

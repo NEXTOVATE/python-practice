@@ -13,20 +13,20 @@
 
 
 
-# def filter_list(x):
-#     for i in x:
-#         if len(i) == 4:
-#             x.remove(i)
-#     return x
+def filter_list(x):
+    name = []
+    for i in x:
+        if len(i) == 4:
+            name.append(i)
+    return name
     
 
-# z = ["Ryan", "Kieran", "Jason", "Yous","aman"]
-# print(filter_list(z))
+
+z = ["Ryan", "Kiran", "Jason", "Yous","aman"]
+print(filter_list(z))
 
  
  
-z = ["Ryan", "Kieran", "Jason", "Yous","aman"]
 
-for i in z:
-    if len(i) == 4:
+
         
