@@ -16,3 +16,4 @@ num = [1,2,6]
 print(final_average(num))
 
 
+ 
