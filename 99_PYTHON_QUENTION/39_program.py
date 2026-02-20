@@ -6,14 +6,23 @@
 # "aba" --> false
 # "moOse" --> false (ignore letter case)
 
-x = "princee"
 
-x = x.lower()
+def is_isogram(string):
+    return len(string) == len(set(string.lower())) 
 
-if len(x) == len(set(x)):
-    print("not a isogram")
-else:
-    print("isogram")
+
+
+
+
+
+
+
+x = input("Enter the word :")
+print(is_isogram(x))
+
+
+
+
 
 
 
