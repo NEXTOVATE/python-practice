@@ -23,7 +23,7 @@ def get_middle(s):
 s = "test"
 
 print(get_middle(s))
-
+ 
 
 
  
