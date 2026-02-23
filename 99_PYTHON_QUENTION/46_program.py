@@ -18,4 +18,4 @@ for i in lines:
     i += n 
 print(arry)
     
-
+ 
