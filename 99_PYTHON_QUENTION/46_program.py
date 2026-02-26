@@ -9,13 +9,25 @@
 # [] --> []
 # ["a", "b", "c"] --> ["1: a", "2: b", "3: c"]
 
-lines = ["a", "b", "c"
-n = 0
-arry = []
-for i in lines:
-    n += 1
-    # arry.append(n,":", i)
-    i += n 
-print(arry)
+# lines = ["a", "b", "c"]
+# n = 0
+
+# for i in lines:
+#     n += 1
+#     i.join()
+#     i.replace
+#     # arry1
+# print(lines)
     
  
+
+lines = ["a", "b", "c","d"]
+
+result = []
+for i in range(len(lines)):
+    num = f"{i+1}: {lines[i]}"
+    result.append(num)
+print(result)
+
+
+
