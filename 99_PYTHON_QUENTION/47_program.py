@@ -1,18 +1,36 @@
-# Your task is to make a function that can take any non-negative integer as an argument and return it with its digits in descending order. Essentially, rearrange the digits to create the highest possible number.
+# The museum of incredibly dull things
+# The museum of incredibly dull things wants to get rid of some exhibits. Miriam, the interior architect, comes up with a plan to remove the most boring exhibits. She gives them a rating, and then removes the one with the lowest rating.
 
-# Examples:
-# Input: 42145 Output: 54421
+# However, just as she finished rating all exhibits, she's off to an important fair, so she asks you to write a program that tells her the ratings of the exhibits after removing the lowest one. Fair enough.
 
-# Input: 145263 Output: 654321
+# Task
+# Given an array of integers, remove the smallest value. Do not mutate the original array/list. If there are multiple elements with the same value, remove the one with the lowest index. If you get an empty array/list, return an empty array/list.
 
-# Input: 123456789 Output: 987654321
+# Don't change the order of the elements that are left.
 
+# Examples
+# * Input: [1,2,3,4,5], output = [2,3,4,5]
+# * Input: [5,3,2,1,4], output = [5,3,2,4]
+# * Input: [2,2,1,2,1], output = [2,2,2,1]
+    
 
-# n = int(input("Enter a positive number :"))
-n = 231
-
-if n < 0 :
-    print("Invalid number!")
-else:
+def remove_smallest(num):
+    if len(num) == 0:
+        return []
+    copy = num[:]
+    copy.remove(min(copy))
+    return copy
     
     
+
+
+
+input = [5,3,2,1,4]
+print(remove_smallest(input))
+
+
+
+
+
+
+
